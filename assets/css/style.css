@@ -232,14 +232,22 @@ footer{
         position: static;
     }
     .headerSpace{
-        width: 640px;
+        width: 100%;
     }
     .contentDiv {
-        width: 640px;
+        width: 100%;
     }
     #nameLogo{
-        width:50%;
+        width:100%;
     }
+
+    .menuItems{
+        /* float:none;
+        display: inline-block;
+         */
+        width: 33%;
+    }
+
     footer{
         width:640px;
         font-size: 2vw;
