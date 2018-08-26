@@ -219,11 +219,16 @@ footer{
         width: 640px;
     }
     .contentDiv {
-        width: 640px
+        width: 640px;
+        padding:0;
+    }
+    .projectList{
+        margin: 15px 0 15px 15px;
     }
     #nameLogo{
         width:40%;
     }
+
 
 }
 
@@ -237,6 +242,7 @@ footer{
     .contentDiv {
         width: 100%;
     }
+
     #nameLogo{
         width:100%;
     }
@@ -249,7 +255,12 @@ footer{
     }
 
     footer{
-        width:640px;
+        width:100%;
         font-size: 2vw;
     }
+
+    a {
+        background-color: #ffffff;
+    }
+
 }
